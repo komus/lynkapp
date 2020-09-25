@@ -1,0 +1,25 @@
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\bin\Debug\LynkIdeas App.exe.config
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\bin\Debug\LynkIdeas App.exe
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\bin\Debug\LynkIdeas App.pdb
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.csprojAssemblyReference.cache
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\MainWindow.g.cs
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\App.g.cs
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App_MarkupCompile.cache
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App_MarkupCompile.lref
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\MainWindow.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.g.resources
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas_App.Properties.Resources.resources
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.csproj.GenerateResource.cache
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.csproj.CoreCompileInputs.cache
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.exe
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.pdb
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\LynkIdeas App.csproj.Fody.CopyLocal.cache
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\App.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Resources\Styles\Windows.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Resources\Styles\Colors.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Resources\Styles\Texts.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Resources\Styles\Buttons.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Resources\Styles\Fonts.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Pages\LoginPage.baml
