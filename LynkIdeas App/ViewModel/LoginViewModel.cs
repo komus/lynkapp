@@ -46,7 +46,7 @@ namespace LynkIdeas_App
         public async Task Login(object parameter)
         {
             await Task.Delay(500);
-
+            var pass = (parameter as SecureString).Unsecure();
 
         }
 
