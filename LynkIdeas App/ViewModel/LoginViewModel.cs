@@ -18,6 +18,10 @@ namespace LynkIdeas_App
         /// Email of the user
         /// </summary>
         public string Email { get; set; }
+        /// <summary>
+        /// A flag indicating of the Login command is running
+        /// </summary>
+        public bool LoginIsRunning { get; set; }
 
        
         #endregion
@@ -45,8 +49,10 @@ namespace LynkIdeas_App
         /// <returns></returns>
         public async Task Login(object parameter)
         {
+           
             await Task.Delay(500);
-            var pass = (parameter as SecureString).Unsecure();
+            var email = this.Email;
+            var pass = (parameter as IHavePassword).SecurePassword.Unsecure();
 
         }
 

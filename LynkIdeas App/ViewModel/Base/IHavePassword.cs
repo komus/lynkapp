@@ -1,12 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LynkIdeas_App.ViewModel.Base
+namespace LynkIdeas_App
 {
-    class IHavePassword
+    /// <summary>
+    /// Interface for a class that can provide password
+    /// </summary>
+    public interface IHavePassword
     {
+        /// <summary>
+        /// the secure password
+        /// </summary>
+        SecureString SecurePassword { get; }
     }
 }
