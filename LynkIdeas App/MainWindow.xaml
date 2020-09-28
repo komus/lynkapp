@@ -15,15 +15,27 @@
         MinWidth="400" 
         MinHeight="530"
         >
+    <Border  Background="{StaticResource LynkColorBrush}">
+        <Grid>
 
-    <Grid Background="{StaticResource BackgroundVeryLightBrush}">
-        <Border Grid.Row="1" Background="{StaticResource LynkColorBrush}">
-            <Border>
-                <!--<Border.Background>
-                    <ImageBrush TileMode="Tile" ViewportUnits="Absolute" Viewport="0 0 800 500" ImageSource="/Resources/Images/Backgrounds/Lynkideas-04.png"></ImageBrush>
-                </Border.Background>-->
-            </Border>
-        </Border>
-        <Frame x:Name="MainFrame" Content="{Binding CurrentPage, Converter={local:ApplicationPageValueConverter}}"></Frame>
-    </Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <!--<Grid.Background>
+                <ImageBrush TileMode="Tile" ViewportUnits="Absolute" Viewport="0 0 800 500" ImageSource="/Resources/Images/Backgrounds/Lynkideas-04.png"></ImageBrush>
+            </Grid.Background>-->
+
+            <Frame Grid.Column="1" x:Name="MainFrame" Content="{Binding CurrentPage, Converter={local:ApplicationPageValueConverter}}"></Frame>
+
+            <local:SideMenuControl>
+               
+            </local:SideMenuControl>
+            
+        </Grid>
+    </Border>
+
+   
 </Window>

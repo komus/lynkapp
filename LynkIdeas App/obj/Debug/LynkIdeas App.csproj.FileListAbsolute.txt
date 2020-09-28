@@ -23,3 +23,7 @@ C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Resources\
 C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Pages\LoginPage.g.cs
 C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Pages\LoginPage.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Pages\ChatPage.g.cs
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Pages\ChatPage.baml
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Controls\SideMenuControl.g.cs
+C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\obj\Debug\Controls\SideMenuControl.baml

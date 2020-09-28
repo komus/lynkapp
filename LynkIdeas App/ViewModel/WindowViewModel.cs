@@ -70,7 +70,7 @@ namespace LynkIdeas_App
         /// </summary>
         /// <param name="window"></param>
 
-        public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Login;
+        public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Chat;
 
         public string WindowTitle { get; set; } = "LynkIdea App";
         #endregion

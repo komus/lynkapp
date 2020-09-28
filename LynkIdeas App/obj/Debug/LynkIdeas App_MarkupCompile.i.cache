@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Kikidaope\source\repos\LynkIdeas App\LynkIdeas App\App.xaml
-7-1069460028
+9-608390612
 
-23-1662170165
+25543936490
 14-755879876
-MainWindow.xaml;Pages\LoginPage.xaml;Resources\Styles\Windows.xaml;Resources\Styles\Colors.xaml;Resources\Styles\Texts.xaml;Resources\Styles\Buttons.xaml;Resources\Styles\Fonts.xaml;
+Controls\SideMenuControl.xaml;MainWindow.xaml;Pages\ChatPage.xaml;Pages\LoginPage.xaml;Resources\Styles\Windows.xaml;Resources\Styles\Colors.xaml;Resources\Styles\Texts.xaml;Resources\Styles\Buttons.xaml;Resources\Styles\Fonts.xaml;
 
-False
+True
 

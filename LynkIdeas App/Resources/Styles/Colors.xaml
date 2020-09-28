@@ -20,6 +20,9 @@
     <Color x:Key="LynkColor">#936caf</Color>
     <SolidColorBrush x:Key="LynkColorBrush" Color="{StaticResource LynkColor}"></SolidColorBrush>
 
+    <Color x:Key="LynkColorLight">#D0C0DC</Color>
+    <SolidColorBrush x:Key="LynkColorLightBrush" Color="{StaticResource LynkColorLight}"></SolidColorBrush>
+
     <Color x:Key="WordBlue">#936caf</Color>
     <SolidColorBrush x:Key="WordBlueBrush" Color="{StaticResource WordBlue}" />
 

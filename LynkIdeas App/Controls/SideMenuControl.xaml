@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="LynkIdeas_App.SideMenuControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LynkIdeas_App"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Template>
+        <ControlTemplate TargetType="UserControl">
+            <!--side menu-->
+            <Border Background="{StaticResource ForeGroundLightBrush}">
+                <!--Content of the side menu-->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid Height="50" Background="{StaticResource LynkColorBrush}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Icon Buttons-->
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource IconButton}" Content="{StaticResource FontAwesomeChatIcon}"></Button>
+                            <Button Style="{StaticResource IconButton}" Content="{StaticResource FontAwesomeUserIcon}"></Button>
+                            <Button Style="{StaticResource IconButton}" Content="{StaticResource FontAwesomeImageIcon}"></Button>
+
+                        </StackPanel>
+
+                        <Button Grid.Column="2" Foreground="{StaticResource ForeGroundMainBrush}" Style="{StaticResource IconButton}" Content="{StaticResource FontAwesomeSettingIcon}"></Button>
+                    </Grid>
+                    
+                    <!--User Content-->
+                    <ContentPresenter Grid.Row="1"></ContentPresenter>
+                </Grid>
+            </Border>
+
+        </ControlTemplate>
+    </UserControl.Template>
+   
+</UserControl>
