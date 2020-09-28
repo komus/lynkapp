@@ -49,10 +49,13 @@ namespace LynkIdeas_App
         /// <returns></returns>
         public async Task Login(object parameter)
         {
+            await RunCommand(() => this.LoginIsRunning, async () =>
+            {
+                await Task.Delay(5000);
+                var email = this.Email;
+                var pass = (parameter as IHavePassword).SecurePassword.Unsecure();
+            });
            
-            await Task.Delay(500);
-            var email = this.Email;
-            var pass = (parameter as IHavePassword).SecurePassword.Unsecure();
 
         }
 

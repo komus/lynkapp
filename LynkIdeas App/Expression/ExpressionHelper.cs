@@ -36,7 +36,7 @@ namespace LynkIdeas_App
 
             //Get the property Information 
             var propertyInfo = (PropertyInfo)expression.Member;
-            var target = lamba.Compile().DynamicInvoke();
+            var target = Expression.Lambda(expression.Expression).Compile().DynamicInvoke();
             propertyInfo.SetValue(target, value);
         }
     }

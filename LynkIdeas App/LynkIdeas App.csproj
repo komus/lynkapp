@@ -65,6 +65,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="AttachedProperties\BaseAttachedProperty.cs" />
+    <Compile Include="AttachedProperties\ButtonAttachedProperty.cs" />
     <Compile Include="AttachedProperties\PasswordBoxAttachedProperties.cs" />
     <Compile Include="DataModels\ApplicationPage.cs" />
     <Compile Include="Expression\ExpressionHelper.cs" />
@@ -143,6 +144,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Resource Include="Resources\Fonts\fontawesome-webfont.ttf" />
     <Resource Include="Resources\Fonts\Lato-Black.ttf" />
     <Resource Include="Resources\Fonts\Lato-BlackItalic.ttf" />
     <Resource Include="Resources\Fonts\Lato-Bold.ttf" />

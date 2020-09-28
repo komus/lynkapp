@@ -40,6 +40,19 @@ namespace LynkIdeas_App.ViewModel
 
             //set the property flag to true, to indicate we are running
             updatingFlag.SetPropertyValue(true);
+
+            try
+            {
+                //run the passed in action
+                await action();
+            }
+            finally
+            {
+                //set the property flag back to false
+                updatingFlag.SetPropertyValue(false);
+            }
+
+
         }
         #endregion
     }
